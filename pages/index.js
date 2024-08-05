@@ -209,13 +209,7 @@ export default function Home({ posts }) {
           <div className="slide-track2">
             <div className="slide">
               <picture>
-                <div className="slide">
-                  <img
-                    src="/static/images/Logos/Softbank.png"
-                    alt="SoftBank Group"
-                    width="80%"
-                  ></img>
-                </div>
+                <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
               </picture>
             </div>
             <div className="slide">
@@ -255,7 +249,9 @@ export default function Home({ posts }) {
               </picture>
             </div>
             <div className="slide">
-              <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+              <picture>
+                <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+              </picture>
             </div>
             <div className="slide">
               <picture>
@@ -294,35 +290,45 @@ export default function Home({ posts }) {
               </picture>
             </div>
             <div className="slide">
-              <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+              <picture>
+                <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+              </picture>
             </div>
             <div className="slide">
-              <img
-                src="/static/images/Logos/rileysway.png"
-                alt="Riley's Way Foundation"
-                width="80%"
-              ></img>
+              <picture>
+                <img
+                  src="/static/images/Logos/rileysway.png"
+                  alt="Riley's Way Foundation"
+                  width="80%"
+                ></img>
+              </picture>
             </div>
             <div className="slide">
-              <img
-                src="/static/images/Logos/wharton.png"
-                alt="The Wharton School"
-                width="80%"
-              ></img>
+              <picture>
+                <img
+                  src="/static/images/Logos/wharton.png"
+                  alt="The Wharton School"
+                  width="80%"
+                ></img>
+              </picture>
             </div>
             <div className="slide">
-              <img
-                src="/static/images/Logos/cocacola.png"
-                alt="The Coca-Cola Foundation"
-                width="80%"
-              ></img>
+              <picture>
+                <img
+                  src="/static/images/Logos/cocacola.png"
+                  alt="The Coca-Cola Foundation"
+                  width="80%"
+                ></img>
+              </picture>
             </div>
             <div className="slide">
-              <img
-                src="/static/images/Logos/tacobell.png"
-                alt="The Taco Bell Foundation"
-                width="80%"
-              ></img>
+              <picture>
+                <img
+                  src="/static/images/Logos/tacobell.png"
+                  alt="The Taco Bell Foundation"
+                  width="80%"
+                ></img>
+              </picture>
             </div>
           </div>
         </div>
