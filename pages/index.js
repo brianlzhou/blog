@@ -209,13 +209,17 @@ export default function Home({ posts }) {
           <div className="slide-track2">
             <div className="slide">
               <picture>
-                <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+                <img
+                  src="/static/images/Logos/Softbank_grey.png"
+                  alt="SoftBank Group"
+                  width="80%"
+                ></img>
               </picture>
             </div>
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/rileysway.png"
+                  src="/static/images/Logos/rileysway_grey.png"
                   alt="Riley's Way Foundation"
                   width="80%"
                 ></img>
@@ -224,7 +228,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/wharton.png"
+                  src="/static/images/Logos/wharton_grey.png"
                   alt="The Wharton School"
                   width="80%"
                 ></img>
@@ -233,7 +237,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/cocacola.png"
+                  src="/static/images/Logos/cocacola_grey.png"
                   alt="The Coca-Cola Foundation"
                   width="80%"
                 ></img>
@@ -242,7 +246,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/tacobell.png"
+                  src="/static/images/Logos/tacobell_grey.png"
                   alt="The Taco Bell Foundation"
                   width="80%"
                 ></img>
@@ -250,13 +254,17 @@ export default function Home({ posts }) {
             </div>
             <div className="slide">
               <picture>
-                <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+                <img
+                  src="/static/images/Logos/Softbank_grey.png"
+                  alt="SoftBank Group"
+                  width="80%"
+                ></img>
               </picture>
             </div>
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/rileysway.png"
+                  src="/static/images/Logos/rileysway_grey.png"
                   alt="Riley's Way Foundation"
                   width="80%"
                 ></img>
@@ -265,7 +273,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/wharton.png"
+                  src="/static/images/Logos/wharton_grey.png"
                   alt="The Wharton School"
                   width="80%"
                 ></img>
@@ -274,7 +282,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/cocacola.png"
+                  src="/static/images/Logos/cocacola_grey.png"
                   alt="The Coca-Cola Foundation"
                   width="80%"
                 ></img>
@@ -283,7 +291,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/tacobell.png"
+                  src="/static/images/Logos/tacobell_grey.png"
                   alt="The Taco Bell Foundation"
                   width="80%"
                 ></img>
@@ -291,13 +299,17 @@ export default function Home({ posts }) {
             </div>
             <div className="slide">
               <picture>
-                <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+                <img
+                  src="/static/images/Logos/Softbank_grey.png"
+                  alt="SoftBank Group"
+                  width="80%"
+                ></img>
               </picture>
             </div>
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/rileysway.png"
+                  src="/static/images/Logos/rileysway_grey.png"
                   alt="Riley's Way Foundation"
                   width="80%"
                 ></img>
@@ -306,7 +318,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/wharton.png"
+                  src="/static/images/Logos/wharton_grey.png"
                   alt="The Wharton School"
                   width="80%"
                 ></img>
@@ -315,7 +327,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/cocacola.png"
+                  src="/static/images/Logos/cocacola_grey.png"
                   alt="The Coca-Cola Foundation"
                   width="80%"
                 ></img>
@@ -324,7 +336,7 @@ export default function Home({ posts }) {
             <div className="slide">
               <picture>
                 <img
-                  src="/static/images/Logos/tacobell.png"
+                  src="/static/images/Logos/tacobell_grey.png"
                   alt="The Taco Bell Foundation"
                   width="80%"
                 ></img>

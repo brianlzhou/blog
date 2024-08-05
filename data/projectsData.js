@@ -23,14 +23,14 @@ const projectsData = [
     tech2: 'SQL',
   },
   {
-    title: 'DMVGrader',
-    description: ``,
+    title: 'DMValuation',
+    description: `DMV Dozen`,
     imgSrc: '',
     href: '',
     github: '',
     label: 'Wharton Investment Competition',
     tech1: 'Python',
-    tech2: '',
+    tech2: 'Qiskit',
   },
   {
     title: 'Q-Market',
