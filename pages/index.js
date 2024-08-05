@@ -7,6 +7,8 @@ import formatDate from '@/lib/utils/formatDate'
 import { RoughNotation } from 'react-rough-notation'
 import NewsletterForm from '@/components/NewsletterForm'
 import ViewCounter from '@/components/ViewCounter'
+import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const MAX_DISPLAY = 3
 
@@ -24,8 +26,11 @@ export default function Home({ posts }) {
         <div className="mb-12 flex flex-col items-center gap-x-12 xl:flex-row">
           <div className="pt-6">
             <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              Hi, I am{' '}
-              <span className="text-primary-color-500 dark:text-primary-color-dark-500">Parth</span>
+              Hi, I'm{' '}
+              <span className="text-primary-color-500 dark:text-primary-color-dark-500">
+                Brian Zhou
+              </span>
+              .
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
               {`Welcome to ${siteMetadata.description}. I am a Data Engineer who is passionate about Data Science and Automation. In my free time, I like developing `}
@@ -101,7 +106,7 @@ export default function Home({ posts }) {
               </span>
             </h1>
           </div> */}
-          <div className="flex items-center justify-center">
+          {/* <div className="flex items-center justify-center">
             <div className="grid grid-cols-1 grid-rows-3 gap-8 py-12">
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
@@ -195,8 +200,157 @@ export default function Home({ posts }) {
                 </div>
               </div>
             </div>
+          </div> */}
+        </div>
+        <center>
+          <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">Supported By</h2>
+        </center>
+        <div className="slider">
+          <div className="slide-track2">
+            <div className="slide">
+              <picture>
+                <div className="slide">
+                  <img
+                    src="/static/images/Logos/Softbank.png"
+                    alt="SoftBank Group"
+                    width="80%"
+                  ></img>
+                </div>
+              </picture>
+            </div>
+            <div className="slide">
+              <picture>
+                <img
+                  src="/static/images/Logos/rileysway.png"
+                  alt="Riley's Way Foundation"
+                  width="80%"
+                ></img>
+              </picture>
+            </div>
+            <div className="slide">
+              <picture>
+                <img
+                  src="/static/images/Logos/wharton.png"
+                  alt="The Wharton School"
+                  width="80%"
+                ></img>
+              </picture>
+            </div>
+            <div className="slide">
+              <picture>
+                <img
+                  src="/static/images/Logos/cocacola.png"
+                  alt="The Coca-Cola Foundation"
+                  width="80%"
+                ></img>
+              </picture>
+            </div>
+            <div className="slide">
+              <picture>
+                <img
+                  src="/static/images/Logos/tacobell.png"
+                  alt="The Taco Bell Foundation"
+                  width="80%"
+                ></img>
+              </picture>
+            </div>
+            <div className="slide">
+              <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+            </div>
+            <div className="slide">
+              <picture>
+                <img
+                  src="/static/images/Logos/rileysway.png"
+                  alt="Riley's Way Foundation"
+                  width="80%"
+                ></img>
+              </picture>
+            </div>
+            <div className="slide">
+              <picture>
+                <img
+                  src="/static/images/Logos/wharton.png"
+                  alt="The Wharton School"
+                  width="80%"
+                ></img>
+              </picture>
+            </div>
+            <div className="slide">
+              <picture>
+                <img
+                  src="/static/images/Logos/cocacola.png"
+                  alt="The Coca-Cola Foundation"
+                  width="80%"
+                ></img>
+              </picture>
+            </div>
+            <div className="slide">
+              <picture>
+                <img
+                  src="/static/images/Logos/tacobell.png"
+                  alt="The Taco Bell Foundation"
+                  width="80%"
+                ></img>
+              </picture>
+            </div>
+            <div className="slide">
+              <img src="/static/images/Logos/Softbank.png" alt="SoftBank Group" width="80%"></img>
+            </div>
+            <div className="slide">
+              <img
+                src="/static/images/Logos/rileysway.png"
+                alt="Riley's Way Foundation"
+                width="80%"
+              ></img>
+            </div>
+            <div className="slide">
+              <img
+                src="/static/images/Logos/wharton.png"
+                alt="The Wharton School"
+                width="80%"
+              ></img>
+            </div>
+            <div className="slide">
+              <img
+                src="/static/images/Logos/cocacola.png"
+                alt="The Coca-Cola Foundation"
+                width="80%"
+              ></img>
+            </div>
+            <div className="slide">
+              <img
+                src="/static/images/Logos/tacobell.png"
+                alt="The Taco Bell Foundation"
+                width="80%"
+              ></img>
+            </div>
           </div>
         </div>
+
+        {/* <div class="slider">
+          <div class="slide-track">
+            <div class="slide bg-red-500">1</div>
+            <div class="slide bg-purple-500">2</div>
+            <div class="slide bg-blue-500">3</div>
+            <div class="slide bg-indigo-500">4</div>
+            <div class="slide bg-pink-500">5</div>
+            <div class="slide bg-green-500">6</div>
+            <div class="slide bg-yellow-500">7</div>
+            <div class="slide bg-red-500">8</div>
+            <div class="slide bg-gray-500 text-white">9</div>
+            <div class="slide bg-blue-800">0</div>
+            <div class="slide bg-red-500">1</div>
+            <div class="slide bg-purple-500">2</div>
+            <div class="slide bg-blue-500">3</div>
+            <div class="slide bg-indigo-500">4</div>
+            <div class="slide bg-pink-500">5</div>
+            <div class="slide bg-green-500">6</div>
+            <div class="slide bg-yellow-500">7</div>
+            <div class="slide bg-red-500">8</div>
+            <div class="slide bg-gray-500 text-white">9</div>
+            <div class="slide bg-blue-800">0</div>
+          </div>
+        </div> */}
         <h2 className="flex pb-6 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
           Latest
         </h2>

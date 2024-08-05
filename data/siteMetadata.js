@@ -1,21 +1,21 @@
 const siteMetadata = {
-  title: 'Blog | Parth Desai',
-  author: 'Parth Desai',
-  headerTitle: 'Mere Musings',
+  title: 'Brian Zhou',
+  author: 'Brian Zhou',
+  headerTitle: 'Brian Zhou',
   description: 'My personal blog where I share my musings',
   snippets: 'Reuseable code snippets collected by Parth',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://musing.vercel.app',
-  siteRepo: 'https://github.com/pycoder2000/blog',
+  siteUrl: 'https://zhoubrian.com',
+  siteRepo: 'https://github.com/brianlzhou/blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'desaiparth2000@gmail.com',
-  github: 'https://github.com/pycoder2000',
-  twitter: 'https://twitter.com/_ParthDesai_',
-  linkedin: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/',
-  website: 'https://parthdesai.vercel.app',
+  email: 'hello@zhoubrian.com',
+  github: 'https://github.com/brianlzhou',
+  twitter: 'https://twitter.com/brian1zhou',
+  linkedin: 'https://www.linkedin.com/in/brianlzhou/',
+  website: 'https://zhoubrian.com',
   locale: 'en-US',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
@@ -46,7 +46,7 @@ const siteMetadata = {
     },
   },
   socialAccount: {
-    twitter: '_ParthDesai_',
+    twitter: '_brian1zhou_',
   },
 }
 

@@ -289,6 +289,10 @@ module.exports = {
             opacity: 0,
           },
         },
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(var(--slide-width) * var(--no-of-slides) * -1))' },
+        },
       },
       animation: {
         'fade-text': '10s ease-in-out 3s 1 normal forwards running fade-away',
@@ -301,6 +305,7 @@ module.exports = {
         'gradient-foreground-2': 'gradient-foreground-2 8s infinite',
         'gradient-background-3': 'gradient-background-3 8s infinite',
         'gradient-foreground-3': 'gradient-foreground-3 8s infinite',
+        scroll: 'scroll var(--iteration-time) linear infinite',
       },
     },
   },
