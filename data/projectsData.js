@@ -61,16 +61,18 @@ const projectsData = [
     label: 'TJHSST',
     tech1: 'HTML',
     tech2: 'CSS',
+    tech3: 'Ion',
   },
   {
     title: "TJHSST Quizbowl/It's Academic Site",
     description: '',
-    imgSrc: '',
+    imgSrc: 'https://github.com/brianlzhou/tjquizbowl',
     href: 'http://activities.tjhsst.edu/quizbowl',
     github: '',
     label: 'TJHSST',
     tech1: 'HTML',
     tech2: 'CSS',
+    tech3: 'Ion',
   },
   // Building and optimizing AI solvers for games including Sudoku, Othello, and sliding puzzles
   // Proficient in working with Visual Studio Code, Eclipse, Android Studio, JGrasp, GitHub, Git, CARLA, Ubuntu, Anaconda, Jupyter, Google Colab, VMware
