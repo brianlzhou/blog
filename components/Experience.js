@@ -15,6 +15,7 @@ const Experience = ({ title, company, location, range, url, text1, text2, text3 
             </Link>
           </b>
         </span>
+        <span></span>
       </div>
       <div>
         <div className="p-1 font-mono text-gray-400 dark:text-gray-600">
