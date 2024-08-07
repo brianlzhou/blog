@@ -78,6 +78,7 @@ export default function Home({ posts }) {
               </div>
             </p>
           </div>
+          <div className="bubble">{/* <!-- click on the bubble --> */}</div>
           {/* <div className="h-content sm:h-content-sm flex flex-col justify-around">
             <h1 className="sm:text-8.5xl tracking-tightest my-28 select-none text-center text-6xl font-extrabold leading-none sm:my-10">
               <span
