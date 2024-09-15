@@ -13,7 +13,8 @@ export default function Quotes() {
             Quotes
           </h1>
           <p className="text-md leading-7 text-gray-500 dark:text-gray-400">
-            Some of my favorite quotes
+            This is a collection of quotes that have impacted my life that I'd like to remember. Who
+            knows, maybe one will impact you too?
           </p>
         </div>
         <motion.div
@@ -32,6 +33,13 @@ export default function Quotes() {
           }}
           className="mt-6 flex flex-col gap-y-14"
         >
+          <h2 className="text-3xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">
+            <center>
+              <i>
+                On <b>pushing forward</b>
+              </i>
+            </center>
+          </h2>
           {quotes.map((item) => (
             <li key={item.quote} className="flex cursor-default flex-col">
               <blockquote className="rounded-md bg-gray-200 p-6 dark:bg-gray-800">

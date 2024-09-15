@@ -15,4 +15,8 @@ export const quotes = [
     author: 'Otto Von Bismarck',
     quote: `When you want to fool the world, tell the truth.`,
   },
+  {
+    author: 'Ke Huy Quan',
+    quote: 'To all of you out there, please keep your dreams alive.',
+  },
 ]
