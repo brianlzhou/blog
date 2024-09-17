@@ -3,7 +3,7 @@ import siteMetadata from '@/data/siteMetadata'
 import ResearchListLayout from '@/layouts/ResearchListLayout'
 import { PageSEO } from '@/components/SEO'
 
-export const POSTS_PER_PAGE = 5
+export const POSTS_PER_PAGE = 500
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('research')
