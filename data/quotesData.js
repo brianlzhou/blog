@@ -4,10 +4,6 @@ export const quotesPushingforward = [
     quote: `Don't ignore your dreams; don't work too much; say what you think; cultivate friendships; be happy.`,
   },
   {
-    author: 'Reed Hastings',
-    quote: `Stone Age. Bronze Age. Iron Age. We define entire epics of humanity by the technology they use.`,
-  },
-  {
     author: 'John Green',
     quote: `The world may be broken, but hope is not crazy.`,
   },
@@ -29,5 +25,12 @@ export const quotesVeritas = [
   {
     author: 'Otto Von Bismarck',
     quote: `When you want to fool the world, tell the truth.`,
+  },
+]
+
+export const quotesTech = [
+  {
+    author: 'Reed Hastings',
+    quote: `Stone Age. Bronze Age. Iron Age. We define entire epics of humanity by the technology they use.`,
   },
 ]
